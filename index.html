@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AttendanceTacker</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="zoom: 100%;">
+    <div style="background-color: brown; height: 90px;" >
+        <img src="cu.png" id="logo">
+        <h5 id="head">
+            AttendanceTacker
+        </h5>
+        <p id="senn">Quick attendance for student</p>
+    </div>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto; position: relative; left: 972px; bottom: 75px;  ">
+      Login
+    </button>
+    <div class="head1">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#news">Academics</a></li>
+        </ul>
+    </div>
+    <div class="social1">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-google"></a>
+            
+    </div>
+
+    <input type="text" placeholder="Search.." name="search" id="senn1" >
+    <button type="submit" style=" position: relative; border-radius: 10px;width: 30px; height: 30px; left: 900px; bottom: 150px;">
+      <i class="fa fa-search"></i>
+    </button>
+    
+    <div class="slideshow">
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="921_n.jpg" id="logo1">
+            
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="0490_n.jpg"  id="logo1">
+            
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="8827_n.jpg"  id="logo1">
+            
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="09_n.jpg"  id="logo1">
+           
+          </div>
+       
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+
+    <div style="background: rgba(109, 0, 0, 0.993); position: relative; bottom: 120px; height: 200px; padding: 20px;">
+    <div style="position: relative; right: 10px;" >
+      <img src="5760.jpg"  id="logo2">
+      <img src="32.jpg"  id="logo3">
+      <img src="7103.jpg"  id="logo4">
+      <img src="3068.jpg"  id="logo5">
+    </div>
+    </div>
+
+    <div class="head2">
+
+      <iframe id="yt" src="https://www.youtube.com/embed/z84at9ZgOnY?si=DdG5Qh4LjaLROu7T">
+      </iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.110949482018!2d124.64936740966277!3d8.488592297180633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2e7ff6d2ec9%3A0x180566d5585d5301!2sCapitol%20University!5e0!3m2!1sen!2sph!4v1732526345376!5m2!1sen!2sph" id="map"></iframe>
+      </iframe>
+
+  </div>
+  <div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="dashbroad.html" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="th (2).jpg" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit" <a href="dashbroad.html">Login</a></button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="dashbroad.html">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+
+  
+  
+</body>
+</html>
+
+
+
+
+
+
+
+<script>
+
+  // Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+    let slideIndex = 0;
+ showSlides(slideIndex);
+ 
+ function plusSlides(n) {
+   showSlides(slideIndex += n);
+ }
+ 
+ function currentSlide(n) {
+   showSlides(slideIndex = n);
+ }
+ 
+ function showSlides(n) {
+   let i;
+   let slides = document.getElementsByClassName("mySlides");
+   let dots = document.getElementsByClassName("dot");
+   if (n > slides.length) {slideIndex = 1}    
+   for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";  
+   }
+   slideIndex++;
+   if (slideIndex > slides.length) {slideIndex = slides.length}
+   for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" active", "");
+   }
+   slides[slideIndex-1].style.display = "block";  
+   dots[slideIndex-1].className += " active";
+   setTimeout(showSlides, 2000); // Change image every 2 seconds
+ }
+  </script>

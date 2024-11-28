@@ -1,0 +1,908 @@
+#logo{
+   position: relative;
+   width:100px;
+   height: 80px;
+   left: 100px;
+   top: 5px;
+}
+#head{
+   position: relative; 
+   bottom: 110px;
+   color: white;
+   left: 205px;
+   font-size: 25px;
+
+}
+#senn{
+   position: relative;
+   font-size: 15px;
+   color: white;
+   bottom: 150px;
+   left: 205px;
+}
+ul {
+   position: relative;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   left: 45%;
+   bottom: 10px;
+   
+
+}
+.head1{
+   position: relative;
+   right: 270px;
+   bottom: 45px;
+
+
+}
+.head2{
+   position: relative;
+   padding: 10px;
+   left: 5px;
+
+   
+}
+
+li {
+   float: left;
+}
+
+li a {
+   position: relative;
+   display: block;
+   color:black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 15px;
+   
+}
+
+li a:hover {
+       background-color: rgb(128, 0, 45);
+}
+.social1{
+   position: relative;
+   bottom: 100px;
+   left: 150px;
+
+   
+}
+.fa {
+   padding: 10px;
+   width: 20px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   border-radius: 60%;
+ }
+ 
+.fa:hover {
+   opacity: 0.7;
+}
+
+.fa-facebook {
+position: relative;
+ background: #3B5998;
+ color: white;
+ 
+
+}
+
+.fa-youtube {
+   position: relative;
+   background: #bb0000;
+   color: white;
+ }
+
+.fa-google {
+   position: relative;
+ background: #dd4b39;
+ color: white;
+}
+.fa-search{
+   position: relative; 
+   font-size: 15px; 
+   bottom: 20px; 
+   right: 20px;
+}
+#senn1{
+   position: relative; 
+   border-radius: 10px; 
+   width: 200px; 
+   height: 30px; 
+   left: 900px; 
+   bottom: 170px;
+}
+
+.slideshow{
+bottom: 35px;
+position: relative;
+width: 900px;
+height: 195px;
+position: relative;
+margin: auto;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 20px;
+padding-left: 30px;
+right: 185px;
+}
+#logo1{
+position: relative;
+width: 1255px;
+height: 320px;
+bottom: 165px;
+left: 8px;
+
+}
+#logo2{
+position: relative;
+width: 300px;
+height: 165px;
+bottom: -6px;
+left: 10px;
+
+}
+#logo3{
+position: relative;
+width: 300px;
+height: 165px;
+bottom: -6px;
+left: 20px;
+
+}
+#logo4{
+position: relative;
+width: 300px;
+height: 165px;
+bottom: -6px;
+left: 30px;
+
+}
+#logo5{
+position: relative;
+width: 290px;
+height: 165px;
+bottom: -6px;
+left: 40px;
+
+}
+#map{
+position: relative;
+width:600px;
+height:450px;
+left: 30px;
+bottom: 100px;
+}
+#yt{
+position: relative;
+width:600px;
+height:450px;
+bottom: 100px;
+}
+
+
+/* Next & previous buttons */
+.prev {
+cursor: pointer;
+position: relative;
+bottom: 300px;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+left: 15px;
+}
+.next {
+cursor: pointer;
+position: relative;
+bottom: 300px;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color:white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+left: 1165px;
+}
+
+/* Position the "next button" to the right */
+.model{
+position: relative; 
+top: 100px;
+}
+.next {
+position: relative;
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+position: relative;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+position: relative;
+cursor: pointer;
+height: 10px;
+width: 10px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.5s ease;
+right: 20px;
+bottom: 138px;
+}
+
+.active, .dot:hover {
+position: relative;
+}
+
+/* Fading animation */
+.fade {
+position: relative;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+position: relative;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+position: relative;
+background-color: #ca0000;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+position: relative;
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+position: relative;
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+
+img.avatar {
+position: relative;
+width: 40%;
+border-radius: 50%;
+}
+
+.container {
+position: relative;
+padding: 16px;
+}
+
+span.psw {
+position: relative;
+float: right;
+padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+position: relative;
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+position: relative;
+background-color: #fefefe;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border: 1px solid #888;
+width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+position: absolute;
+right: 25px;
+top: 0;
+color: #000;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: red;
+cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+position: relative;
+-webkit-animation: animatezoom 0.6s;
+animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+from {-webkit-transform: scale(0)} 
+to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+from {transform: scale(0)} 
+to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+display: block;
+float: none;
+}
+.cancelbtn {
+width: 100%;
+}
+}
+.Desktop1{
+   width: 3998px;
+   height: 1970px; 
+   position: relative; 
+   opacity: 0.90;
+   background: rgba(234.82, 92.43, 92.43, 0.76);
+   zoom: 39%;
+}
+.Rectangle1{
+   width: 463px; 
+height: 2046px; 
+left: -18px; 
+top: -66px; 
+position: absolute; 
+opacity: 0.50; 
+background: #871717
+}
+.Rectangle2{
+width: 3555px; 
+height: 111px; 
+left: 4000px; 
+top: 111px; 
+position: absolute; 
+transform: rotate(180deg); 
+transform-origin: 0 0;  
+background: #871717;
+}
+
+.Dashboard1{
+width: 428px; 
+height: 82px; 
+left: 529px; 
+top: 167.01px; 
+position: absolute; 
+color: black; 
+font-size: 65px; 
+font-family: Inter; 
+font-weight: 700; 
+letter-spacing: 3.25px; 
+word-wrap: break-word;
+}
+.Dashboard2{
+width: 250px; 
+left: 87px; 
+top: 415px; 
+position: absolute; 
+color: #FCFCFC; 
+font-size: 40px; 
+font-family: Inter; 
+font-weight: 400; 
+letter-spacing: 2px; 
+word-wrap: break-word"
+}
+.Student{
+width: 198px; 
+height: 50px; 
+left: 119px; 
+top: 600px; 
+position: absolute; 
+color: black; 
+font-size: 40px; 
+font-family: Inter; 
+font-weight: 400; 
+letter-spacing: 2px; 
+word-wrap: break-word
+}
+.Rectangle3{
+width: 546px; 
+height: 254px; 
+left: 529px; 
+top: 356px; 
+position: absolute; 
+background: rgba(255, 255, 255, 0.56); 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+border-radius: 60px
+}
+.Rectangle4{
+width: 564px; 
+height: 254px; 
+left: 1165px; 
+top: 356px; 
+position: absolute; 
+opacity: 0.80; 
+background: rgba(219.05, 171.95, 196.29, 0.71); 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+border-radius: 60px
+}
+.Rectangle5{
+width: 564px; 
+height: 254px; 
+left: 1831px; 
+top: 356px; 
+position: absolute; 
+opacity: 0.80; 
+background: rgba(162.51, 242.10, 155.28, 0.75); 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+border-radius: 60px;
+}
+.Rectangle6{
+width: 564px; 
+height: 254px; 
+left: 2499px; 
+top: 356px; position: 
+absolute; opacity: 0.80; 
+background: #FEDBDA; 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+border-radius: 60px;
+}
+.TotalStudent{
+width: 398px; 
+height: 37px; 
+left: 578px;
+top: 521px; 
+position: absolute; 
+color: black; 
+font-size: 30px; 
+font-family: Instrument Sans; 
+font-weight: 600; 
+letter-spacing: 1.50px; 
+word-wrap: break-word;
+}
+.AttendancePercentage{
+width: 422px; 
+height: 48px; 
+left: 1199px; 
+top: 521px; 
+position: absolute; 
+color: black; 
+font-size: 30px; 
+font-family: Instrument Sans; 
+font-weight: 600; 
+letter-spacing: 1.50px; 
+word-wrap: break-word;
+}
+
+.CheckedInToday{
+width: 304px; 
+height: 42px; 
+left: 1877px; 
+top: 521px; 
+position: absolute; 
+color: black; 
+font-size: 30px; 
+font-family: Instrument Sans; 
+font-weight: 600; 
+letter-spacing: 1.50px; 
+word-wrap: break-word;
+}
+.CheckedOutToday{
+width: 344px; 
+height: 54px; 
+left: 2541px; 
+top: 520px; 
+position: absolute; 
+color: black; 
+font-size: 30px; 
+font-family: Instrument Sans; 
+font-weight: 600; 
+letter-spacing: 1.50px; 
+word-wrap: break-word;
+}
+.Attendance{
+width: 261px; 
+height: 53px; 
+left: 87px; 
+top: 697px; 
+position: absolute; 
+color: black; 
+font-size: 40px; 
+font-family: Inter; 
+font-weight: 400; 
+letter-spacing: 2px; 
+word-wrap: break-word;
+}
+.Rectangle7{
+width: 2480px; 
+height: 1015px; 
+left: 533px; 
+top: 730px; 
+position: absolute; 
+background: rgba(255, 255, 255, 0.76); 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+border-radius: 50px;
+}
+.Rectangle9{
+width: 204px; 
+height: 62px; 
+left: 2741px; 
+top: 779px; 
+position: absolute; 
+background: white; 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+border-radius: 20px;
+}
+.AttendanceReport{
+width: 557px; 
+height: 48px; 
+left: 608px; 
+top: 774px; 
+position: absolute; 
+color: black; 
+font-size: 40px; 
+font-family: Instrument Sans; 
+font-weight: 400; 
+letter-spacing: 2px; 
+word-wrap: break-word;
+}
+.Ellipse1{
+width: 130px; 
+height: 120px; 
+left: 36px; 
+top: 99px; 
+position: absolute; 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+border-radius: 9999px; 
+border: 1px solid;
+}
+.GritareAljeanMary1{
+width: 223px; 
+height: 141px; 
+left: 193px; 
+top: 72px; 
+position: absolute; 
+color: white; 
+font-size: 40px; 
+font-family: Inter; 
+font-weight: 400; 
+letter-spacing: 2px; 
+word-wrap: break-word;
+}
+.Ellipse2{
+width: 66px; 
+height: 64px; 
+left: 3135px; 
+top: 16px; 
+position: absolute; 
+border-radius: 9999px;
+border: 1px solid;
+}
+.GritareAljeanMary2{
+width: 333px; 
+height: 41px; 
+left: 2778px; 
+top: 39px; 
+position: absolute; 
+color: white; 
+font-size: 25px; 
+font-family: Instrument Sans; 
+font-weight: 400; 
+letter-spacing: 1.25px; 
+word-wrap: break-word;
+}
+.num1{
+   width: 132px; 
+   height: 48px; 
+   left: 2780px; 
+   top: 796px; 
+   position: absolute; 
+   color: black; 
+   font-size: 30px; 
+   font-family: Instrument Sans; 
+   font-weight: 400; 
+   letter-spacing: 1.50px;  
+   word-wrap: break-word
+}
+.SelectYear{
+   width: 196px; 
+   height: 37px; 
+   left: 2540px; 
+   top: 793px; 
+   position: absolute; 
+   color: black; 
+   font-size: 30px; 
+   font-family: Instrument Sans; 
+   font-weight: 500; 
+   letter-spacing: 1.50px; 
+   word-wrap: break-word;
+}
+.Line1{
+   width: 16.97px; 
+   height: 0px; 
+   left: 2872px; 
+   top: 806px; 
+   position: absolute; 
+   transform: rotate(45deg); 
+   transform-origin: 0 0;  
+   border: 1px black solid;
+}
+.Line2{
+   width: 15.62px; 
+   height: 0px; 
+   left: 2895px; 
+   top: 810px; 
+   position: absolute; 
+   transform: rotate(129.81deg); 
+   transform-origin: 0 0; 
+   border: 1px black solid;
+}
+.Rectangle10{
+   width: 481px; 
+   height: 36px; 
+   left: 559px; 
+   top: 567px; 
+   position: absolute; 
+   opacity: 0.40; 
+   background: #D9D9D9; 
+   border-radius: 40px;
+}
+.Rectangle11{
+   width: 481px; 
+   height: 36px; 
+   left: 1203px; 
+   top: 565px; 
+   position: absolute; 
+   opacity: 0.40; 
+   background: #D9D9D9; 
+   border-radius: 40px;
+}
+.Rectangle12{
+   width: 481px; 
+   height: 36px; 
+   left: 1877px; 
+   top: 567px; 
+   position: absolute; 
+   opacity: 0.40; 
+   background: #D9D9D9; 
+   border-radius: 40px;
+}
+.Rectangle13{
+   width: 481px; 
+   height: 36px; 
+   left: 2542px; 
+   top: 569px; 
+   position: absolute; 
+   opacity: 0.40; 
+   background: #D9D9D9; 
+   border-radius: 40px;
+}
+.Rectangle14{
+   width: 563px; 
+   height: 63px; 
+   left: 2289px; 
+   top: 175px; 
+   position: absolute; 
+   background: white; 
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+   border-radius: 30px;
+}
+.Search1{
+   width: 260px; 
+   height: 25px; 
+   left: 2383px; 
+   top: 191px; 
+   position: absolute; 
+   color: black; 
+   font-size: 25px; 
+   font-family: Inter; 
+   font-weight: 300; 
+   letter-spacing: 1.25px; 
+   word-wrap: break-word;
+}
+.Search2{
+   width: 260px; 
+   height: 25px; 
+   left: 866px; 
+   top: 857px; 
+   position: absolute; 
+   color: black; 
+   font-size: 25px; 
+   font-family: Inter; 
+   font-weight: 300; 
+   letter-spacing: 1.25px; 
+   word-wrap: break-word;
+}
+.MoreInfo1{
+   width: 128px; 
+   height: 23px; 
+   left: 724px; 
+   top: 573px; 
+   position: absolute; 
+   color: black; 
+   font-size: 20px; 
+   font-family: Instrument Sans; 
+   font-weight: 500; 
+   letter-spacing: 1px; 
+   word-wrap: break-word;
+}
+.MoreInfo2{
+   width: 128px; 
+   height: 23px; 
+   left: 1384px; 
+   top: 572px; 
+   position: absolute; 
+   color: black; 
+   font-size: 20px; 
+   font-family: Instrument Sans; 
+   font-weight: 500; 
+   letter-spacing: 1px; 
+   word-wrap: break-word;
+}
+.MoreInfo3{
+   width: 128px; 
+   height: 23px; 
+   left: 2054px; 
+   top: 574px; 
+   position: absolute; 
+   color: black; 
+   font-size: 20px; 
+   font-family: Instrument Sans; 
+   font-weight: 500; 
+   letter-spacing: 1px; 
+   word-wrap: break-word;
+}
+.MoreInfo4{
+   width: 128px; 
+   height: 23px; 
+   left: 2722px; 
+   top: 574px; 
+   position: absolute; 
+   color: black; 
+   font-size: 20px; 
+   font-family: Instrument Sans; 
+   font-weight: 500; 
+   letter-spacing: 1px; 
+   word-wrap: break-word;
+}
+.Home{
+   width: 143px; 
+   height: 18px; 
+   left: 2900px; 
+   top: 189px; 
+   position: absolute; 
+   color: black; 
+   font-size: 30px; 
+   font-family: Instrument Sans; 
+   font-weight: 500; 
+   letter-spacing: 1.50px; 
+   word-wrap: break-word;
+}
+.Line3{
+   width: 335px; 
+   height: 0px; 
+   left: 2768px; 
+   top: 72px; 
+   position: absolute; 
+   border: 1px white solid;
+}
+.Line4{
+   width: 96px; 
+   height: 0px; left: 
+   2898px; top: 225px; 
+   position: absolute; 
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+   border: 1px black solid;
+}
+.SectionCode{
+   width: 231px; 
+   height: 56px; 
+   left: 609px; 
+   top: 851px; 
+   position: absolute; 
+   color: rgba(0, 0, 0, 0.95); 
+   font-size: 25px; 
+   font-family: Instrument Sans; 
+   font-weight: 600; 
+   letter-spacing: 1.25px; 
+   word-wrap: break-word"
+}
+.Rectangle15{
+   width: 273px; 
+   height: 46px; 
+   left: 802px; 
+   top: 847px; 
+   position: absolute; 
+   background: white; 
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+   border-radius: 30px;
+}
+.Rectangle16{
+   width: 2240px; 
+   height: 714px; 
+   left: 610px; 
+   top: 932px; 
+   position: absolute; 
+   background: white; 
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+   border-radius: 20px;
+}
+.Rectangle17{
+   width: 28px; 
+   height: 668px; 
+   left: 2792px; 
+   top: 933px; 
+   position: absolute; 
+   background: #F5F2F2; 
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 45px;
+}
+.Rectangle18{
+   width: 17px; 
+   height: 233px; 
+   left: 2797px; 
+   top: 956px; 
+   position: absolute; 
+   background: rgba(255, 255, 255, 0.76); 
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+   border-radius: 55px;
+}
